@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="utf-8">
+   <title>Cupful Cafe>CSS media query</title>
+   
+   <style>
+       body {
+           text-align: center;
+       }
+
+       .gfg {
+           font-size: 40px;
+           font-weight: bold;
+           color: green;
+       }
+
+       @media screen and (max-width:800px) {
+           body {
+               text-align: center;
+               background-color: green;
+           }
+
+           .hero {
+               font-size: 30px;
+               font-weight: bold;
+               color: rgb(228, 72, 72);
+           }
+
+           .supporting-container {
+               color: rgb(232, 47, 47);
+           }
+       }
+
+       @media screen and (max-width:500px) {
+           body {
+               text-align: center;
+               background-color: blue;
+           }
+       }
+   </style>
+   <link href='https://fonts.googleapis.com/css?family=Raleway:300,800' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<html>
+
+  <body>
+    <div class="container">
+
+    <h1>Cupful Cafe</h1>
+      <div class="hero">
+          <div class="hero-content">
+            <div>
+              <h2>Organic Tea and Coffee</h2>
+            </div>
+            <div>
+              <h2>Freshly Baked Pastries</h2>
+            </div>
+            <div>
+              <h2>Free Wifi</h2>
+            </div>
+            <div>
+              <h3>Read Our Menu</h3>
+            </div>
+          </div>
+      </div>
+
+      <div class="supporting-container">
+        <div class="upcoming">
+          <h3>Upcoming events</h3>
+        </div>
+        <div class="roast">
+          <h3>Today's Roast</h3>
+        </div>
+      </div>
+      <p id="footer">Contact Us</p>
+    </div>
+
+  </body>
+</html>
